@@ -25,6 +25,8 @@ body {
     background-image: url("./imagem/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container{
@@ -37,9 +39,10 @@ body {
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
-    color: var(--botao-azul)
+    color: var(--branco-principal);
     display: block;
-    textfield-decoration: 
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario{
